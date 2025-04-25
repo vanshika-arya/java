@@ -1,6 +1,6 @@
 public class variabletypes {
     int a=12;//instance variable
-    static int b=10; //ststic variables
+    static int b=10; //static variable declared with static keyword
     public static void main(String[] args) {
         int c=11;//local variable
         System.out.println(c);//prints the local variable value inside the method where it declared
