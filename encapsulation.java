@@ -1,4 +1,4 @@
-package sharedfile;
+
 class Atm{
     private int a;
     public void setrupee(int a){

@@ -1,30 +1,39 @@
-class Employee_details{
-    String name;
+class EmployeeDetails{
+    private 
     int id;
-    double salary;
-
-    void salary_increamennt(double salary){
-        
-        salary=salary+(salary*0.05);
-        System.out.println("Salary after increament: "+ salary);
+    String name;
+    int salary;
+    public void getdetails(int i, String n, int s){
+        id=i;
+        name=n;
+        salary=s;
     }
-    void display(){
-        System.out.println(name);
-        System.out.println(id);
-        System.out.println(salary);
+    public int setid(){
+        return id;
+    }
+    public String setname(){
+        return name;
+    }
+    public int marks(){
+        return salary;
+    }
+    public void print(){
+        System.out.println(setid());
+        System.out.println(marks());
+        System.out.println(setname());
+        
     }
 }
 
+public class Employee {
+    public static void main(String[] args){
+        EmployeeDetails e= new EmployeeDetails();
+        e.getdetails(229,"vanshika",15000);
+        e.setid();
+        e.setname();
+        e.marks();
+        e.print();
 
-public class employee {
-    public static void main(String[] args) {
-        Employee_details E=new Employee_details();
-        E.name="Vanshika";
-        E.id=229;
-        E.salary=34445.99;
-        E.display();
-        E.salary_increamennt(34445.99);
     }
-
     
 }
