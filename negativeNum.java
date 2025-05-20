@@ -1,3 +1,4 @@
+//PositiveNumber , Zeroes, Negative Numbers
 public class negativeNum {
     public static void main(String[] args) {
         int arr[]={-4,6,0,-9,0,5};
