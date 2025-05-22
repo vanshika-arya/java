@@ -11,9 +11,11 @@ public class TryandCatch {
             System.out.println(c);
         }catch (Exception e){
             System.out.println("Can't divide by Zero");
-        }
-        System.out.println("hii");
+        }finally{
+            System.out.println("hii");
         System.out.println("vanshika");
+        }
+        
     }
     
 }
