@@ -8,6 +8,7 @@ public class ArrayList2 {
         arr.add("Alshifa");
         arr.add(0, " Jyoti");
         System.out.println(arr);
+        
         try{
         System.out.println(arr.get(4));
         }catch(Exception e){
@@ -15,6 +16,8 @@ public class ArrayList2 {
         }finally{
        arr.add(3, "Rashmi");
         System.out.println(arr.get(3));
+        arr.remove(3);
+        System.out.println(arr);
         }
     }
     
