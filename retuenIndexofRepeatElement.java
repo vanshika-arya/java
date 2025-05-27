@@ -10,8 +10,6 @@ public class retuenIndexofRepeatElement {
          for(int j=0;j<a.length;j++){
             if(a[i]==a[j])
              count++;
-            
-           
          }
          System.out.println(a[i] + ": "+count);
        }
