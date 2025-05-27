@@ -6,6 +6,7 @@ public class set {
         int a[]={1,2,2,42,4,5,3,53,45,3,5};
        for(int i=0;i<a.length;i++){
         set.add(a[i]);
+    
        }
        System.out.println(set);
     }
