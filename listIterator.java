@@ -6,12 +6,13 @@ public class listIterator {
         ArrayList<String> list= new ArrayList<>();
         list.add("Vanshika");
         list.add("anjali");
-        list.add("astha");
+        list.add("as");
         list.add("alishifa");
         list.add("Jyoti");
         ListIterator<String> it= list.listIterator();
         while(it.hasNext()){
             String data= it.next();
+            
             System.out.println(data);
         }
         System.out.println("Ulta");
