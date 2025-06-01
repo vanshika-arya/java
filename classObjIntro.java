@@ -5,8 +5,6 @@ class student{
         System.out.println(firstname+ " " + lastname);
     }
 }
-
-
 public class classObjIntro {
     
     public static void main(String[] args) {
