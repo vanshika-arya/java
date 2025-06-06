@@ -8,7 +8,8 @@ public class mapStream {
                                 .filter(n-> n%2==0)
                               .map(n->n*5)
                                 .collect(Collectors.toList());
-                  System.out.println(evenlist);     
+                  System.out.println(evenlist);   
+                    // lists ko combine karke ek single unit me lana= reduce function
     }
     
 }
