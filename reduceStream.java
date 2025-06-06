@@ -9,6 +9,9 @@ public class reduceStream {
         Optional <Integer> sum=list.stream().reduce((a,b)->a+b);
                                
                   System.out.println(sum);
+         int sumo= list.stream().reduce(10,(a,b)->a+b);
+         System.out.println(sumo);
+
     }
     
 }
