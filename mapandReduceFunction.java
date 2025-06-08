@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class mapandReduceFunction {
     public static void main(String[] args) {
-                 List <Integer> list= Arrays.asList(10,30,87,6);
+                 List <Integer> list= Arrays.asList(2,10,30,87,6);
                  List <Integer> evenlist=list.stream()
                                 .filter(n-> n%2==0)
                               .filter(n->n>2)
