@@ -1,5 +1,4 @@
-
-    import java.util.Scanner;
+ import java.util.Scanner;
 class RotateMatrix90{
     static void rotateMat(int[][] arr,int n){
        int[][] matrix = new int[n][n];
